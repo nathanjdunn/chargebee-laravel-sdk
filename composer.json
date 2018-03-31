@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NathanDunn\\ChargebeeLaravel\\ServiceProvider"
+                "NathanDunn\\ChargebeeLaravel\\ChargebeeServiceProvider"
             ],
             "aliases": {
                 "Chargebee": "NathanDunn\\ChargebeeLaravel\\Facades"
