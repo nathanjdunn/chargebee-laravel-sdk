@@ -13,8 +13,8 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "5.5.*",
-        "illuminate/support": "5.5.*",
+        "illuminate/contracts": "5.6.*",
+        "illuminate/support": "5.6.*",
         "graham-campbell/manager": "^3.0",
         "nathandunn/chargebee-php-sdk": "^0.3"
     },
