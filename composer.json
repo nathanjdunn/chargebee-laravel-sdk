@@ -42,7 +42,7 @@
                 "NathanDunn\\ChargebeeLaravel\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Chargebee": "NathanDunn\\ChargebeeLaravel\\Facades"
             }
         }
     }
