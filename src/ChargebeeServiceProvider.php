@@ -55,9 +55,9 @@ class ChargebeeServiceProvider extends ServiceProvider
     protected function registerFactory()
     {
         $this->app->singleton('chargebee.factory', function () {
-            return new chargebeeFactory();
+            return new ChargebeeFactory;
         });
-        $this->app->alias('chargebee.factory', chargebeeFactory::class);
+        $this->app->alias('chargebee.factory', ChargebeeFactory::class);
     }
 
     /**
@@ -72,7 +72,7 @@ class ChargebeeServiceProvider extends ServiceProvider
             $factory = $app['chargebee.factory'];
             return new ChargebeeManager($config, $factory);
         });
-        $this->app->alias('chargebee', chargebeeManager::class);
+        $this->app->alias('chargebee', ChargebeeManager::class);
     }
 
     /**
