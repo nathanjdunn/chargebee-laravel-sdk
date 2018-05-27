@@ -1,4 +1,6 @@
-<?php namespace NathanDunn\ChargebeeLaravel;
+<?php
+
+namespace NathanDunn\ChargebeeLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
